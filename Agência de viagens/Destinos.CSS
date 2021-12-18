@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'Viagens';
+	src: url(RNS_Camelia.otf);
+}
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: montserrat;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/422/981/158/beautiful-sunset-wallpaper-preview.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+	background: orangered;
+	height: 80px;
+	width: 100%;
+}
+#Formulario div
+{
+    background-image:linear-gradient(yellow, orangered);
+    position: relative;
+    width: 20%;
+    height: 400px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: darkgreen 1px solid;
+    border-radius: 10px 90px;
+}
+#Formulario h1
+{
+    text-align: center;
+    margin-bottom: 16.90%;
+    margin-top: 6%;
+}
+#Formulario input
+{
+    outline: none;
+    border: solid black 1px;
+    display: list-item;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 30.50%;
+    width: 40%;
+    height: 6%;
+}
+#Formulario input:hover
+{
+    height: 7%;
+    transition: 1s;
+}
+button
+{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 38%;
+}
+label.logo {
+    text-decoration: underline;
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+	background: aliceblue;
+	transition: .5s;
+}
+select{
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 25%;
+}

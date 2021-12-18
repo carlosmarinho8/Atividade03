@@ -1,0 +1,98 @@
+* 
+{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+nav
+{
+	background: orangered;
+	height: 70px;
+	width: 100%;
+}
+label.logo {
+    text-decoration: underline;
+	color: white;
+	font-size: 35px;
+	line-height: 70px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+	margin-right: 22px;
+    margin-top: -3px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+	background: aliceblue;
+	transition: .5s;
+}
+.Fotos img
+{
+    width: 400px;
+    height: 220px;
+    border: solid 1px black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.Fotos
+{
+    background-color: orangered;
+    height: 220px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 50px;
+
+}
+h1
+{
+    margin-left: 810px;
+}
+h2
+{
+    position: absolute;
+    margin-top: -31px;
+    letter-spacing: 10px;
+    background: yellow;
+    border-top-right-radius: 10px;
+}
+h3
+{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 600px;
+    font-size: 1.90em;
+}
+
+#Promo
+{
+    background-image: radial-gradient(aliceblue, whitesmoke);
+}
+footer
+{
+    float: inline-end;
+    background-color: #1C1C1C;
+    margin-top: 52px;
+    height: 37px;
+    color: white;
+    
+}
+footer h1
+{
+    margin-left: 760px;
+}

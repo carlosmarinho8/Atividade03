@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'Viagens';
+	src: url(RNS_Camelia.otf);
+}
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: montserrat;
+}
+#Section_Bem_Vindo
+{
+	width: 100%;
+	height: 600px;
+	background-image: url("https://p4.wallpaperbetter.com/wallpaper/422/981/158/beautiful-sunset-wallpaper-preview.jpg");
+	background-position: center;
+	background-size: 100%;
+}
+#Section_Div
+{
+	background-image: linear-gradient(yellow, orangered);
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 210px;
+	border-radius: 50px;
+	width: 1500px;
+}
+#Imagens, div img
+{
+	width: 600px;
+	display: inline-flex;
+	padding-left: 35px;
+	height: 400px;
+}
+#Imagens
+{
+	margin-top: 50px;
+}
+h1
+{
+	font-size: 4em;
+	font-family: 'Viagens';
+	text-align: center;
+}
+p
+{
+	position: absolute;
+	display: block;
+	margin-top: -100px;
+	margin-left: 100px;
+	color: aliceblue;
+	font-size: 20px;
+	background-color: rgba(105,89,205,0.60);
+}
+nav
+{
+	background: orangered;
+	height: 80px;
+	width: 100%;
+}
+label.logo {
+	text-decoration: underline;
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+	background: aliceblue;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2b2b2e;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #171618;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
