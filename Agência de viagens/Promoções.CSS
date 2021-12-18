@@ -73,10 +73,12 @@ h2
 }
 h3
 {
+
     position: absolute;
     margin-top: -130px;
     margin-left: 600px;
     font-size: 1.90em;
+color: white;
 }
 
 #Promo
